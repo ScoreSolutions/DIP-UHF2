@@ -1,0 +1,13 @@
+D:\MyProject\DIP-RFID\DIP-UHF2\trunk\DAL\bin\Debug\DAL.dll
+D:\MyProject\DIP-RFID\DIP-UHF2\trunk\DAL\bin\Debug\DAL.pdb
+D:\MyProject\DIP-RFID\DIP-UHF2\trunk\DAL\bin\Debug\DAL.xml
+D:\MyProject\DIP-RFID\DIP-UHF2\trunk\DAL\bin\Debug\Data.dll
+D:\MyProject\DIP-RFID\DIP-UHF2\trunk\DAL\bin\Debug\RfidApiLib.dll
+D:\MyProject\DIP-RFID\DIP-UHF2\trunk\DAL\bin\Debug\Data.pdb
+D:\MyProject\DIP-RFID\DIP-UHF2\trunk\DAL\bin\Debug\Data.xml
+D:\MyProject\DIP-RFID\DIP-UHF2\trunk\DAL\obj\Debug\ResolveAssemblyReference.cache
+D:\MyProject\DIP-RFID\DIP-UHF2\trunk\DAL\obj\Debug\DIP_RFID.DAL.Resources.resources
+D:\MyProject\DIP-RFID\DIP-UHF2\trunk\DAL\obj\Debug\DAL.vbproj.GenerateResource.Cache
+D:\MyProject\DIP-RFID\DIP-UHF2\trunk\DAL\obj\Debug\DAL.dll
+D:\MyProject\DIP-RFID\DIP-UHF2\trunk\DAL\obj\Debug\DAL.xml
+D:\MyProject\DIP-RFID\DIP-UHF2\trunk\DAL\obj\Debug\DAL.pdb

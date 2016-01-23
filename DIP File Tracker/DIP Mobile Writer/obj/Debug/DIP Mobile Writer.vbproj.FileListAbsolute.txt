@@ -1,0 +1,14 @@
+D:\Project\DIP-RFID\DIP File Tracker\DIP Mobile Writer\bin\Debug\DIP Mobile Writer.exe
+D:\Project\DIP-RFID\DIP File Tracker\DIP Mobile Writer\bin\Debug\DIP Mobile Writer.pdb
+D:\Project\DIP-RFID\DIP File Tracker\DIP Mobile Writer\bin\Debug\DIP Mobile Writer.xml
+D:\Project\DIP-RFID\DIP File Tracker\DIP Mobile Writer\bin\Debug\CAENRFIDLibraryPocketPC.dll
+D:\Project\DIP-RFID\DIP File Tracker\DIP Mobile Writer\bin\Debug\PsionTeklogixNet.dll
+D:\Project\DIP-RFID\DIP File Tracker\DIP Mobile Writer\bin\Debug\RFIDDriver.dll
+D:\Project\DIP-RFID\DIP File Tracker\DIP Mobile Writer\bin\Debug\PsionTeklogixNet.xml
+D:\Project\DIP-RFID\DIP File Tracker\DIP Mobile Writer\obj\Debug\ResolveAssemblyReference.cache
+D:\Project\DIP-RFID\DIP File Tracker\DIP Mobile Writer\obj\Debug\DIP_Mobile_Writer.FormMain.resources
+D:\Project\DIP-RFID\DIP File Tracker\DIP Mobile Writer\obj\Debug\DIP_Mobile_Writer.Resources.resources
+D:\Project\DIP-RFID\DIP File Tracker\DIP Mobile Writer\obj\Debug\DIP Mobile Writer.vbproj.GenerateResource.Cache
+D:\Project\DIP-RFID\DIP File Tracker\DIP Mobile Writer\obj\Debug\DIP Mobile Writer.exe
+D:\Project\DIP-RFID\DIP File Tracker\DIP Mobile Writer\obj\Debug\DIP Mobile Writer.xml
+D:\Project\DIP-RFID\DIP File Tracker\DIP Mobile Writer\obj\Debug\DIP Mobile Writer.pdb

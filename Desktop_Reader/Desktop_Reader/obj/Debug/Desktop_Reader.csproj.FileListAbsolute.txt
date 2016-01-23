@@ -1,0 +1,5 @@
+D:\Work_Bizthug\DIP_NEW\Desktop_Reader\Desktop_Reader\obj\Debug\Desktop_Reader.csprojResolveAssemblyReference.cache
+D:\Work_Bizthug\DIP_NEW\Desktop_Reader\Desktop_Reader\bin\Debug\Desktop_Reader.dll
+D:\Work_Bizthug\DIP_NEW\Desktop_Reader\Desktop_Reader\bin\Debug\Desktop_Reader.pdb
+D:\Work_Bizthug\DIP_NEW\Desktop_Reader\Desktop_Reader\obj\Debug\Desktop_Reader.dll
+D:\Work_Bizthug\DIP_NEW\Desktop_Reader\Desktop_Reader\obj\Debug\Desktop_Reader.pdb

@@ -1,0 +1,17 @@
+D:\MyProject\DIP-RFID\DIP-UHF2\trunk\GateConsole\bin\Debug\GateConsole.exe
+D:\MyProject\DIP-RFID\DIP-UHF2\trunk\GateConsole\bin\Debug\GateConsole.pdb
+D:\MyProject\DIP-RFID\DIP-UHF2\trunk\GateConsole\bin\Debug\GateConsole.xml
+D:\MyProject\DIP-RFID\DIP-UHF2\trunk\GateConsole\bin\Debug\DAL.dll
+D:\MyProject\DIP-RFID\DIP-UHF2\trunk\GateConsole\bin\Debug\Data.dll
+D:\MyProject\DIP-RFID\DIP-UHF2\trunk\GateConsole\bin\Debug\RfidApiLib.dll
+D:\MyProject\DIP-RFID\DIP-UHF2\trunk\GateConsole\bin\Debug\DAL.pdb
+D:\MyProject\DIP-RFID\DIP-UHF2\trunk\GateConsole\bin\Debug\DAL.xml
+D:\MyProject\DIP-RFID\DIP-UHF2\trunk\GateConsole\bin\Debug\Data.pdb
+D:\MyProject\DIP-RFID\DIP-UHF2\trunk\GateConsole\bin\Debug\Data.xml
+D:\MyProject\DIP-RFID\DIP-UHF2\trunk\GateConsole\obj\Debug\ResolveAssemblyReference.cache
+D:\MyProject\DIP-RFID\DIP-UHF2\trunk\GateConsole\obj\Debug\GateConsole.frmGateConsole.resources
+D:\MyProject\DIP-RFID\DIP-UHF2\trunk\GateConsole\obj\Debug\GateConsole.Resources.resources
+D:\MyProject\DIP-RFID\DIP-UHF2\trunk\GateConsole\obj\Debug\GateConsole.vbproj.GenerateResource.Cache
+D:\MyProject\DIP-RFID\DIP-UHF2\trunk\GateConsole\obj\Debug\GateConsole.exe
+D:\MyProject\DIP-RFID\DIP-UHF2\trunk\GateConsole\obj\Debug\GateConsole.xml
+D:\MyProject\DIP-RFID\DIP-UHF2\trunk\GateConsole\obj\Debug\GateConsole.pdb

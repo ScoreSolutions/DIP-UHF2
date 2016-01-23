@@ -1,0 +1,39 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<xs:schema id="DataSetBorrow" targetNamespace="http://tempuri.org/DataSetBorrow.xsd" xmlns:mstns="http://tempuri.org/DataSetBorrow.xsd" xmlns="http://tempuri.org/DataSetBorrow.xsd" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata" xmlns:msprop="urn:schemas-microsoft-com:xml-msprop" attributeFormDefault="qualified" elementFormDefault="qualified">
+  <xs:annotation>
+    <xs:appinfo source="urn:schemas-microsoft-com:xml-msdatasource">
+      <DataSource DefaultConnectionIndex="0" FunctionsComponentName="QueriesTableAdapter" Modifier="AutoLayout, AnsiClass, Class, Public" SchemaSerializationMode="IncludeSchema" xmlns="urn:schemas-microsoft-com:xml-msdatasource">
+        <Connections />
+        <Tables />
+        <Sources />
+      </DataSource>
+    </xs:appinfo>
+  </xs:annotation>
+  <xs:element name="DataSetBorrow" msdata:IsDataSet="true" msdata:UseCurrentLocale="true" msprop:Generator_UserDSName="DataSetBorrow" msprop:Generator_DataSetName="DataSetBorrow" msprop:EnableTableAdapterManager="true">
+    <xs:complexType>
+      <xs:choice minOccurs="0" maxOccurs="unbounded">
+        <xs:element name="BorrowWithName" msprop:Generator_UserTableName="BorrowWithName" msprop:Generator_RowDeletedName="BorrowWithNameRowDeleted" msprop:Generator_RowChangedName="BorrowWithNameRowChanged" msprop:Generator_RowClassName="BorrowWithNameRow" msprop:Generator_RowChangingName="BorrowWithNameRowChanging" msprop:Generator_RowEvArgName="BorrowWithNameRowChangeEvent" msprop:Generator_RowEvHandlerName="BorrowWithNameRowChangeEventHandler" msprop:Generator_TableClassName="BorrowWithNameDataTable" msprop:Generator_TableVarName="tableBorrowWithName" msprop:Generator_RowDeletingName="BorrowWithNameRowDeleting" msprop:Generator_TablePropName="BorrowWithName">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="app_no" msprop:Generator_UserColumnName="app_no" msprop:Generator_ColumnPropNameInRow="app_no" msprop:Generator_ColumnVarNameInTable="columnapp_no" msprop:Generator_ColumnPropNameInTable="app_noColumn" type="xs:string" minOccurs="0" />
+              <xs:element name="borrowerdate" msprop:Generator_UserColumnName="borrowerdate" msprop:Generator_ColumnPropNameInRow="borrowerdate" msprop:Generator_ColumnVarNameInTable="columnborrowerdate" msprop:Generator_ColumnPropNameInTable="borrowerdateColumn" type="xs:string" minOccurs="0" />
+              <xs:element name="patent_type_name" msprop:Generator_UserColumnName="patent_type_name" msprop:Generator_ColumnPropNameInRow="patent_type_name" msprop:Generator_ColumnVarNameInTable="columnpatent_type_name" msprop:Generator_ColumnPropNameInTable="patent_type_nameColumn" type="xs:string" minOccurs="0" />
+              <xs:element name="borrowername" msprop:Generator_UserColumnName="borrowername" msprop:Generator_ColumnPropNameInRow="borrowername" msprop:Generator_ColumnVarNameInTable="columnborrowername" msprop:Generator_ColumnPropNameInTable="borrowernameColumn" type="xs:string" minOccurs="0" />
+              <xs:element name="officercreateby" msprop:Generator_UserColumnName="officercreateby" msprop:Generator_ColumnPropNameInRow="officercreateby" msprop:Generator_ColumnVarNameInTable="columnofficercreateby" msprop:Generator_ColumnPropNameInTable="officercreatebyColumn" type="xs:string" minOccurs="0" />
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+        <xs:element name="Performborrow" msprop:Generator_UserTableName="Performborrow" msprop:Generator_RowDeletedName="PerformborrowRowDeleted" msprop:Generator_RowChangedName="PerformborrowRowChanged" msprop:Generator_RowClassName="PerformborrowRow" msprop:Generator_RowChangingName="PerformborrowRowChanging" msprop:Generator_RowEvArgName="PerformborrowRowChangeEvent" msprop:Generator_RowEvHandlerName="PerformborrowRowChangeEventHandler" msprop:Generator_TableClassName="PerformborrowDataTable" msprop:Generator_TableVarName="tablePerformborrow" msprop:Generator_RowDeletingName="PerformborrowRowDeleting" msprop:Generator_TablePropName="Performborrow">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="borrowerdate" msprop:Generator_UserColumnName="borrowerdate" msprop:Generator_ColumnPropNameInRow="borrowerdate" msprop:Generator_ColumnVarNameInTable="columnborrowerdate" msprop:Generator_ColumnPropNameInTable="borrowerdateColumn" type="xs:string" minOccurs="0" />
+              <xs:element name="Patentedinvention" msprop:Generator_UserColumnName="Patentedinvention" msprop:Generator_ColumnPropNameInRow="Patentedinvention" msprop:Generator_ColumnVarNameInTable="columnPatentedinvention" msprop:Generator_ColumnPropNameInTable="PatentedinventionColumn" type="xs:string" minOccurs="0" />
+              <xs:element name="Patenteddesign" msprop:Generator_UserColumnName="Patenteddesign" msprop:Generator_ColumnPropNameInRow="Patenteddesign" msprop:Generator_ColumnVarNameInTable="columnPatenteddesign" msprop:Generator_ColumnPropNameInTable="PatenteddesignColumn" type="xs:string" minOccurs="0" />
+              <xs:element name="Pettypatent" msprop:Generator_UserColumnName="Pettypatent" msprop:Generator_ColumnPropNameInRow="Pettypatent" msprop:Generator_ColumnVarNameInTable="columnPettypatent" msprop:Generator_ColumnPropNameInTable="PettypatentColumn" type="xs:string" minOccurs="0" />
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+      </xs:choice>
+    </xs:complexType>
+  </xs:element>
+</xs:schema>

@@ -1,0 +1,643 @@
+<?xml version="1.0" standalone="yes"?>
+<DIP>
+  <Export>
+    <APP_NO>1501001011</APP_NO>
+    <APP_NAME>"ขั้วอิเล็กโทรดที่มีประกอบด้วยชั้นฟิล์มบางของนาโนคอมโพสิทที่ประกอบด้วย โลหะ หรือ สารประกอบเชิงช้อนของโลหะระดับนาโน และ พอลิเมอร์ สำหรับประยุกต์ในการใช้วิเคราะห์ก๊าซอะซีโตน"</APP_NAME>
+    <APP_POSITION />
+    <LOAD_DATETIME>42234.570183206</LOAD_DATETIME>
+    <FIND_STATUS>0</FIND_STATUS>
+    <REF_ID>2623</REF_ID>
+  </Export>
+  <Export>
+    <APP_NO>1501001021</APP_NO>
+    <APP_NAME>AUTOMATIC SWITCH WITH HEAT-RAY SENSOR</APP_NAME>
+    <APP_POSITION />
+    <LOAD_DATETIME>42234.570183206</LOAD_DATETIME>
+    <FIND_STATUS>0</FIND_STATUS>
+    <REF_ID>2624</REF_ID>
+  </Export>
+  <Export>
+    <APP_NO>1501001033</APP_NO>
+    <APP_NAME>GUIDE RAIL FIXING DEVICE FOR ELEVATOR</APP_NAME>
+    <APP_POSITION />
+    <LOAD_DATETIME>42234.570183206</LOAD_DATETIME>
+    <FIND_STATUS>0</FIND_STATUS>
+    <REF_ID>2625</REF_ID>
+  </Export>
+  <Export>
+    <APP_NO>1501001034</APP_NO>
+    <APP_NAME>อุปกรณ์แปรสภาพก๊าซรั่วของเครื่องยนต์เผาไหม้ภายใน</APP_NAME>
+    <APP_POSITION />
+    <LOAD_DATETIME>42234.570183206</LOAD_DATETIME>
+    <FIND_STATUS>0</FIND_STATUS>
+    <REF_ID>2626</REF_ID>
+  </Export>
+  <Export>
+    <APP_NO>1501001035</APP_NO>
+    <APP_NAME>โรงไฟฟ้าพลังคลื่นทะเลที่ผลิตกระแสไฟฟ้าจากพลังงานจลน์ของคลื่นทะเล ด้วยระบบแปลงพลังงานแบบเพลาขับตรงหมุนทางเดียว</APP_NAME>
+    <APP_POSITION />
+    <LOAD_DATETIME>42234.570183206</LOAD_DATETIME>
+    <FIND_STATUS>0</FIND_STATUS>
+    <REF_ID>2627</REF_ID>
+  </Export>
+  <Export>
+    <APP_NO>1501001097</APP_NO>
+    <APP_NAME>ส่วนผสมของยางผสมน้ำมัน (Oil-extended rubber), ยาง (rubber)และวิธีการสำหรับการผลิตยางผสมน้ำมัน</APP_NAME>
+    <APP_POSITION />
+    <LOAD_DATETIME>42234.570183206</LOAD_DATETIME>
+    <FIND_STATUS>0</FIND_STATUS>
+    <REF_ID>2628</REF_ID>
+  </Export>
+  <Export>
+    <APP_NO>1501001105</APP_NO>
+    <APP_NAME>ปะเก็นฝาสูบ</APP_NAME>
+    <APP_POSITION />
+    <LOAD_DATETIME>42234.570183206</LOAD_DATETIME>
+    <FIND_STATUS>0</FIND_STATUS>
+    <REF_ID>2629</REF_ID>
+  </Export>
+  <Export>
+    <APP_NO>1501001126</APP_NO>
+    <APP_NAME>SWITCH DEVICE AND LOAD CONTROL SYSTEM INCLUDING THE SAME</APP_NAME>
+    <APP_POSITION />
+    <LOAD_DATETIME>42234.570183206</LOAD_DATETIME>
+    <FIND_STATUS>0</FIND_STATUS>
+    <REF_ID>2630</REF_ID>
+  </Export>
+  <Export>
+    <APP_NO>1501001145</APP_NO>
+    <APP_NAME>METHOD FOR PLATING COPPER ALLOY WITH TIN</APP_NAME>
+    <APP_POSITION />
+    <LOAD_DATETIME>42234.570183206</LOAD_DATETIME>
+    <FIND_STATUS>0</FIND_STATUS>
+    <REF_ID>2631</REF_ID>
+  </Export>
+  <Export>
+    <APP_NO>1501001146</APP_NO>
+    <APP_NAME>MEASUREMNT APPARATUS AND DATA PROCESSING METHOD</APP_NAME>
+    <APP_POSITION />
+    <LOAD_DATETIME>42234.570183206</LOAD_DATETIME>
+    <FIND_STATUS>0</FIND_STATUS>
+    <REF_ID>2632</REF_ID>
+  </Export>
+  <Export>
+    <APP_NO>1501001173</APP_NO>
+    <APP_NAME>เครื่องให้ความร้อนสำหรับธัญพืช</APP_NAME>
+    <APP_POSITION />
+    <LOAD_DATETIME>42234.570183206</LOAD_DATETIME>
+    <FIND_STATUS>0</FIND_STATUS>
+    <REF_ID>2633</REF_ID>
+  </Export>
+  <Export>
+    <APP_NO>1501001174</APP_NO>
+    <APP_NAME>เฮดเดอร์ ( HEADER ) สำหรับรดน้ำต้นไม้เพื่อการเกษตร</APP_NAME>
+    <APP_POSITION />
+    <LOAD_DATETIME>42234.570183206</LOAD_DATETIME>
+    <FIND_STATUS>0</FIND_STATUS>
+    <REF_ID>2634</REF_ID>
+  </Export>
+  <Export>
+    <APP_NO>1501001175</APP_NO>
+    <APP_NAME>FUEL INJECTION VALVE</APP_NAME>
+    <APP_POSITION />
+    <LOAD_DATETIME>42234.570183206</LOAD_DATETIME>
+    <FIND_STATUS>0</FIND_STATUS>
+    <REF_ID>2635</REF_ID>
+  </Export>
+  <Export>
+    <APP_NO>1501001187</APP_NO>
+    <APP_NAME>คอมเพรสเซอร์</APP_NAME>
+    <APP_POSITION />
+    <LOAD_DATETIME>42234.570183206</LOAD_DATETIME>
+    <FIND_STATUS>0</FIND_STATUS>
+    <REF_ID>2636</REF_ID>
+  </Export>
+  <Export>
+    <APP_NO>1501001198</APP_NO>
+    <APP_NAME>เจลที่มีส่วนผสมของแอนโทไซยานินสำหรับบรรเทาแผลอับเสบในช่องปาก</APP_NAME>
+    <APP_POSITION />
+    <LOAD_DATETIME>42234.570183206</LOAD_DATETIME>
+    <FIND_STATUS>0</FIND_STATUS>
+    <REF_ID>2637</REF_ID>
+  </Export>
+  <Export>
+    <APP_NO>1501001199</APP_NO>
+    <APP_NAME>ชุดไพรเมอร์ (Primers) และแทคแมนโพรบ (TagMan probe) สำหรับตรวจจีนอีสอง (E2 gene) และจีนอีหก (E6 gene) ของเชื้อฮิวแมน ปาปิโลมา ไวรัส (Human papilloma virus) ชนิด 58 (HPV 58)</APP_NAME>
+    <APP_POSITION />
+    <LOAD_DATETIME>42234.570183206</LOAD_DATETIME>
+    <FIND_STATUS>0</FIND_STATUS>
+    <REF_ID>2638</REF_ID>
+  </Export>
+  <Export>
+    <APP_NO>1501001200</APP_NO>
+    <APP_NAME>เตาอบเอนกประสงค์</APP_NAME>
+    <APP_POSITION />
+    <LOAD_DATETIME>42234.570183206</LOAD_DATETIME>
+    <FIND_STATUS>0</FIND_STATUS>
+    <REF_ID>2639</REF_ID>
+  </Export>
+  <Export>
+    <APP_NO>1501001201</APP_NO>
+    <APP_NAME>ประติมากรรมโลหะนูนต่ำนูนสูงลอยตัวขึ้นรูปจากการปั้มแผ่นโลหะหลายชั้นผิวมีลวดลายจากสีของชั้นโลหะต่างชนิด</APP_NAME>
+    <APP_POSITION />
+    <LOAD_DATETIME>42234.570183206</LOAD_DATETIME>
+    <FIND_STATUS>0</FIND_STATUS>
+    <REF_ID>2640</REF_ID>
+  </Export>
+  <Export>
+    <APP_NO>1501001205</APP_NO>
+    <APP_NAME>มาสเตอร์แบท์พอลิโอเลฟินส์ผสมเซลลูโลสไมโครไฟบลิลดัดแปร และกรรมวิธีการเตรียมมาสเตอร์แบทช์ดังกล่าว</APP_NAME>
+    <APP_POSITION />
+    <LOAD_DATETIME>42234.570183206</LOAD_DATETIME>
+    <FIND_STATUS>0</FIND_STATUS>
+    <REF_ID>2641</REF_ID>
+  </Export>
+  <Export>
+    <APP_NO>1501001207</APP_NO>
+    <APP_NAME>FUEL INJECTION VALVE</APP_NAME>
+    <APP_POSITION />
+    <LOAD_DATETIME>42234.570183206</LOAD_DATETIME>
+    <FIND_STATUS>0</FIND_STATUS>
+    <REF_ID>2642</REF_ID>
+  </Export>
+  <Export>
+    <APP_NO>1501002005</APP_NO>
+    <APP_NAME>METHOD FOR THE MANUFACTURE OF A PLUG-IN CONNECTOR AND PLUG-IN CONNECTOR</APP_NAME>
+    <APP_POSITION />
+    <LOAD_DATETIME>42234.570183206</LOAD_DATETIME>
+    <FIND_STATUS>0</FIND_STATUS>
+    <REF_ID>2643</REF_ID>
+  </Export>
+  <Export>
+    <APP_NO>1501002017</APP_NO>
+    <APP_NAME>METHOD FOR FABRICATING A DAMPED PROPSHAFT ASSEMBLY</APP_NAME>
+    <APP_POSITION />
+    <LOAD_DATETIME>42234.570183206</LOAD_DATETIME>
+    <FIND_STATUS>0</FIND_STATUS>
+    <REF_ID>2644</REF_ID>
+  </Export>
+  <Export>
+    <APP_NO>1501002031</APP_NO>
+    <APP_NAME>หัวเชื้อราไมคอร์ไรซา กระบวนการผลิตและการใช้ของสิ่งนั้น</APP_NAME>
+    <APP_POSITION />
+    <LOAD_DATETIME>42234.570183206</LOAD_DATETIME>
+    <FIND_STATUS>0</FIND_STATUS>
+    <REF_ID>2645</REF_ID>
+  </Export>
+  <Export>
+    <APP_NO>1501002032</APP_NO>
+    <APP_NAME>กรรมวิธีการตรวจเชื้อซัลโมเนลล่า (Salmonella spp.) ด้วยชุดไพรเมอร์ (primer) และตัวตรวจจับสำเร็จรูป (DNA probe) ที่มีความจำเพาะและความไวสูง</APP_NAME>
+    <APP_POSITION />
+    <LOAD_DATETIME>42234.570183206</LOAD_DATETIME>
+    <FIND_STATUS>0</FIND_STATUS>
+    <REF_ID>2646</REF_ID>
+  </Export>
+  <Export>
+    <APP_NO>1501001218</APP_NO>
+    <APP_NAME>ชุดเครื่องปรับอากาศ</APP_NAME>
+    <APP_POSITION />
+    <LOAD_DATETIME>42234.570183206</LOAD_DATETIME>
+    <FIND_STATUS>0</FIND_STATUS>
+    <REF_ID>2647</REF_ID>
+  </Export>
+  <Export>
+    <APP_NO>1501001219</APP_NO>
+    <APP_NAME>Motor Control Device and Air Conditioner</APP_NAME>
+    <APP_POSITION />
+    <LOAD_DATETIME>42234.570183206</LOAD_DATETIME>
+    <FIND_STATUS>0</FIND_STATUS>
+    <REF_ID>2648</REF_ID>
+  </Export>
+  <Export>
+    <APP_NO>1501001227</APP_NO>
+    <APP_NAME>อุปกรณ์ป้องกันน้ำเข้าภายในกระบะรถยนต์</APP_NAME>
+    <APP_POSITION />
+    <LOAD_DATETIME>42234.570183206</LOAD_DATETIME>
+    <FIND_STATUS>0</FIND_STATUS>
+    <REF_ID>2649</REF_ID>
+  </Export>
+  <Export>
+    <APP_NO>1501001228</APP_NO>
+    <APP_NAME>แซนโทนคาร์บอกซิลิกแอซิด ที่มีความสามรถยับยั้งการทำงานของโปรตีนขนส่งคลอไรด์</APP_NAME>
+    <APP_POSITION />
+    <LOAD_DATETIME>42234.570183206</LOAD_DATETIME>
+    <FIND_STATUS>0</FIND_STATUS>
+    <REF_ID>2650</REF_ID>
+  </Export>
+  <Export>
+    <APP_NO>1501001253</APP_NO>
+    <APP_NAME>ระบบการเตือนยานพาหนะ</APP_NAME>
+    <APP_POSITION />
+    <LOAD_DATETIME>42234.570183206</LOAD_DATETIME>
+    <FIND_STATUS>0</FIND_STATUS>
+    <REF_ID>2651</REF_ID>
+  </Export>
+  <Export>
+    <APP_NO>1501001264</APP_NO>
+    <APP_NAME>เครื่องให้อาหารสัตว์น้ำ</APP_NAME>
+    <APP_POSITION />
+    <LOAD_DATETIME>42234.570183206</LOAD_DATETIME>
+    <FIND_STATUS>0</FIND_STATUS>
+    <REF_ID>2652</REF_ID>
+  </Export>
+  <Export>
+    <APP_NO>1501001267</APP_NO>
+    <APP_NAME>อุปกรณ์ต่อพ่วงจักรยาน</APP_NAME>
+    <APP_POSITION />
+    <LOAD_DATETIME>42234.570183206</LOAD_DATETIME>
+    <FIND_STATUS>0</FIND_STATUS>
+    <REF_ID>2653</REF_ID>
+  </Export>
+  <Export>
+    <APP_NO>1501001269</APP_NO>
+    <APP_NAME>การลำเลียงแผ่นรองรับชิ้นงานหล่ออัตโนมัติ สำหรับการผลิตเครื่องสุขภัณฑ์</APP_NAME>
+    <APP_POSITION />
+    <LOAD_DATETIME>42234.570183206</LOAD_DATETIME>
+    <FIND_STATUS>0</FIND_STATUS>
+    <REF_ID>2654</REF_ID>
+  </Export>
+  <Export>
+    <APP_NO>1501001271</APP_NO>
+    <APP_NAME>โปรแกรมดีเออาร์ซีชนิดองค์ประกอบคู่เพื่อเพิ่มปริมาณฟิลเลอร์ในกระดาษ (DARC Dual Component High Ash Program)</APP_NAME>
+    <APP_POSITION />
+    <LOAD_DATETIME>42234.570183206</LOAD_DATETIME>
+    <FIND_STATUS>0</FIND_STATUS>
+    <REF_ID>2655</REF_ID>
+  </Export>
+  <Export>
+    <APP_NO>1501001272</APP_NO>
+    <APP_NAME>พีซีซีเคลือบแป้งชนิดแอล-เอช (Starch Coated PCC-LH, SCPCC-LH)</APP_NAME>
+    <APP_POSITION />
+    <LOAD_DATETIME>42234.570183206</LOAD_DATETIME>
+    <FIND_STATUS>0</FIND_STATUS>
+    <REF_ID>2656</REF_ID>
+  </Export>
+  <Export>
+    <APP_NO>1501001279</APP_NO>
+    <APP_NAME>อุปกรณ์บังแสงอาทิตย์หน้าที่นั่งยานพาหนะ</APP_NAME>
+    <APP_POSITION />
+    <LOAD_DATETIME>42234.570183206</LOAD_DATETIME>
+    <FIND_STATUS>0</FIND_STATUS>
+    <REF_ID>2657</REF_ID>
+  </Export>
+  <Export>
+    <APP_NO>1501001280</APP_NO>
+    <APP_NAME>ตัวปรับความตึงโซ่</APP_NAME>
+    <APP_POSITION />
+    <LOAD_DATETIME>42234.570183206</LOAD_DATETIME>
+    <FIND_STATUS>0</FIND_STATUS>
+    <REF_ID>2658</REF_ID>
+  </Export>
+  <Export>
+    <APP_NO>1501001284</APP_NO>
+    <APP_NAME>เครื่องตรวจแรงกดฝ่าเท้าใส</APP_NAME>
+    <APP_POSITION />
+    <LOAD_DATETIME>42234.570183206</LOAD_DATETIME>
+    <FIND_STATUS>0</FIND_STATUS>
+    <REF_ID>2659</REF_ID>
+  </Export>
+  <Export>
+    <APP_NO>1501001294</APP_NO>
+    <APP_NAME>อุปกรณ์เครื่องปลายทาง</APP_NAME>
+    <APP_POSITION />
+    <LOAD_DATETIME>42234.570183206</LOAD_DATETIME>
+    <FIND_STATUS>0</FIND_STATUS>
+    <REF_ID>2660</REF_ID>
+  </Export>
+  <Export>
+    <APP_NO>1501001295</APP_NO>
+    <APP_NAME>อุปกรณ์ปรับความสว่างและระบบการส่องสว่างที่ใช้อุปกรณ์ปรับความสว่าง</APP_NAME>
+    <APP_POSITION />
+    <LOAD_DATETIME>42234.570183206</LOAD_DATETIME>
+    <FIND_STATUS>0</FIND_STATUS>
+    <REF_ID>2661</REF_ID>
+  </Export>
+  <Export>
+    <APP_NO>1501002037</APP_NO>
+    <APP_NAME>อุปกรณ์รองรับอ่างล้างหน้าและวิธีการติดตั้งอุปกรณ์ดังกล่าว</APP_NAME>
+    <APP_POSITION />
+    <LOAD_DATETIME>42234.570183206</LOAD_DATETIME>
+    <FIND_STATUS>0</FIND_STATUS>
+    <REF_ID>2662</REF_ID>
+  </Export>
+  <Export>
+    <APP_NO>1501002038</APP_NO>
+    <APP_NAME>เรือตัดน้ำแข็งที่มีตัวถ่วงน้ำหนัก (ballast) และสภาวะการลอยตัว (buoyancy) ที่สามารถปรับตัวเองได้เพื่อเพิ่มประสิทธิภาพการใช้พลังงานในการตัดน้ำแข็งทะเลที่มีน้ำหนักมาก โดยเฉพาะแนวสันน้ำแข็งที่ถูกดันขึ้นมา (ice pressure ridge) และวิธีการที่เกี่ยวข้อง</APP_NAME>
+    <APP_POSITION />
+    <LOAD_DATETIME>42234.570183206</LOAD_DATETIME>
+    <FIND_STATUS>0</FIND_STATUS>
+    <REF_ID>2663</REF_ID>
+  </Export>
+  <Export>
+    <APP_NO>1501002039</APP_NO>
+    <APP_NAME>วิธีการประเมินความเสี่ยงในการเกิดผื่นแพ้ยาชนิดรุนแรงของผู้ที่ได้รับยากันชักฟีโนบาร์บิทาล (Phenobarbital)</APP_NAME>
+    <APP_POSITION />
+    <LOAD_DATETIME>42234.570183206</LOAD_DATETIME>
+    <FIND_STATUS>0</FIND_STATUS>
+    <REF_ID>2664</REF_ID>
+  </Export>
+  <Export>
+    <APP_NO>1501002045</APP_NO>
+    <APP_NAME>BELT PULLING EXERCISE APPARATUS</APP_NAME>
+    <APP_POSITION />
+    <LOAD_DATETIME>42234.570183206</LOAD_DATETIME>
+    <FIND_STATUS>0</FIND_STATUS>
+    <REF_ID>2665</REF_ID>
+  </Export>
+  <Export>
+    <APP_NO>1501002056</APP_NO>
+    <APP_NAME>เยลลี่ขึ้นรูปที่มีไส้เป็นน้ำผลไม้และเนื้อผลไม้และกรรมวิธีการผลิต</APP_NAME>
+    <APP_POSITION />
+    <LOAD_DATETIME>42234.570183206</LOAD_DATETIME>
+    <FIND_STATUS>0</FIND_STATUS>
+    <REF_ID>2666</REF_ID>
+  </Export>
+  <Export>
+    <APP_NO>1501002070</APP_NO>
+    <APP_NAME>พร็อทวาล์วทางคู่ของของเหลว</APP_NAME>
+    <APP_POSITION />
+    <LOAD_DATETIME>42234.570183206</LOAD_DATETIME>
+    <FIND_STATUS>0</FIND_STATUS>
+    <REF_ID>2667</REF_ID>
+  </Export>
+  <Export>
+    <APP_NO>1501002085</APP_NO>
+    <APP_NAME>ชุดอุปกรณ์เพิ่มประสิทธิภาพเครื่องกำเนิดไฟฟ้าโดยใช้ไบโอแก๊ส (The Power Set of Generation Biogas)</APP_NAME>
+    <APP_POSITION />
+    <LOAD_DATETIME>42234.570183206</LOAD_DATETIME>
+    <FIND_STATUS>0</FIND_STATUS>
+    <REF_ID>2668</REF_ID>
+  </Export>
+  <Export>
+    <APP_NO>1501002086</APP_NO>
+    <APP_NAME>การสกัดสเต็มเซลล์เข้มข้นจากหอยเป๋าฮื้อ</APP_NAME>
+    <APP_POSITION />
+    <LOAD_DATETIME>42234.570183206</LOAD_DATETIME>
+    <FIND_STATUS>0</FIND_STATUS>
+    <REF_ID>2669</REF_ID>
+  </Export>
+  <Export>
+    <APP_NO>1501002087</APP_NO>
+    <APP_NAME>การสกัดเมือกจากหอยเป๋าฮื้อ</APP_NAME>
+    <APP_POSITION />
+    <LOAD_DATETIME>42234.570183206</LOAD_DATETIME>
+    <FIND_STATUS>0</FIND_STATUS>
+    <REF_ID>2670</REF_ID>
+  </Export>
+  <Export>
+    <APP_NO>1501002095</APP_NO>
+    <APP_NAME>สบู่เอ็นไซม์สมุนไพร</APP_NAME>
+    <APP_POSITION />
+    <LOAD_DATETIME>42234.570183206</LOAD_DATETIME>
+    <FIND_STATUS>0</FIND_STATUS>
+    <REF_ID>2671</REF_ID>
+  </Export>
+  <Export>
+    <APP_NO>1501002097</APP_NO>
+    <APP_NAME>กรรมวิถีการผลิตน้ำเชื้อสุนัขแช่แข็ง</APP_NAME>
+    <APP_POSITION />
+    <LOAD_DATETIME>42234.570183206</LOAD_DATETIME>
+    <FIND_STATUS>0</FIND_STATUS>
+    <REF_ID>2672</REF_ID>
+  </Export>
+  <Export>
+    <APP_NO>1501002118</APP_NO>
+    <APP_NAME>DETECTING APPARATUS AND DETECTING METHOD</APP_NAME>
+    <APP_POSITION />
+    <LOAD_DATETIME>42234.570183206</LOAD_DATETIME>
+    <FIND_STATUS>0</FIND_STATUS>
+    <REF_ID>2673</REF_ID>
+  </Export>
+  <Export>
+    <APP_NO>1501002135</APP_NO>
+    <APP_NAME>WORKING INFORMATION RECORDINE DEVICE</APP_NAME>
+    <APP_POSITION />
+    <LOAD_DATETIME>42234.570183206</LOAD_DATETIME>
+    <FIND_STATUS>0</FIND_STATUS>
+    <REF_ID>2674</REF_ID>
+  </Export>
+  <Export>
+    <APP_NO>1501002155</APP_NO>
+    <APP_NAME>ไซเลนที่ถูกฟังก์ชันนอลไลซ์ด้วยอะโซคาร์บอนิล</APP_NAME>
+    <APP_POSITION />
+    <LOAD_DATETIME>42234.570183206</LOAD_DATETIME>
+    <FIND_STATUS>0</FIND_STATUS>
+    <REF_ID>2675</REF_ID>
+  </Export>
+  <Export>
+    <APP_NO>1501002164</APP_NO>
+    <APP_NAME>สูตรและกรรมวิธีการเตรียมยางธรรมชาติเชิงประกอบที่เสริมแรงด้วยเทอร์มอพลาสติกพอลิโอลิฟินโดยใช้นาโนเคลย์เป็นสารเพิ่มความเข้ากันได้</APP_NAME>
+    <APP_POSITION />
+    <LOAD_DATETIME>42234.570183206</LOAD_DATETIME>
+    <FIND_STATUS>0</FIND_STATUS>
+    <REF_ID>2676</REF_ID>
+  </Export>
+  <Export>
+    <APP_NO>1501002172</APP_NO>
+    <APP_NAME>ENGINE MOUNT</APP_NAME>
+    <APP_POSITION />
+    <LOAD_DATETIME>42234.570183206</LOAD_DATETIME>
+    <FIND_STATUS>0</FIND_STATUS>
+    <REF_ID>2677</REF_ID>
+  </Export>
+  <Export>
+    <APP_NO>1501002179</APP_NO>
+    <APP_NAME>สมุนไพรทรายแมวทางปาล์มน้ำมัน</APP_NAME>
+    <APP_POSITION />
+    <LOAD_DATETIME>42234.570183206</LOAD_DATETIME>
+    <FIND_STATUS>0</FIND_STATUS>
+    <REF_ID>2678</REF_ID>
+  </Export>
+  <Export>
+    <APP_NO>1501002181</APP_NO>
+    <APP_NAME>เครื่องขับเคลื่อนและควบคุมเครื่องกำเนิดไฟฟ้าแม่เหล็กถาวร</APP_NAME>
+    <APP_POSITION />
+    <LOAD_DATETIME>42234.570183206</LOAD_DATETIME>
+    <FIND_STATUS>0</FIND_STATUS>
+    <REF_ID>2679</REF_ID>
+  </Export>
+  <Export>
+    <APP_NO>1501002198</APP_NO>
+    <APP_NAME>A CRAMPING FASTENER DEVICE</APP_NAME>
+    <APP_POSITION />
+    <LOAD_DATETIME>42234.570183206</LOAD_DATETIME>
+    <FIND_STATUS>0</FIND_STATUS>
+    <REF_ID>2680</REF_ID>
+  </Export>
+  <Export>
+    <APP_NO>1501002298</APP_NO>
+    <APP_NAME>การเพิ่มความสามารถการละลายน้ำของยาในกลุ่ม NSAIDs โดยตัวรองรับซิลิกาที่มีรูพรุนสองขนาด</APP_NAME>
+    <APP_POSITION />
+    <LOAD_DATETIME>42234.570183206</LOAD_DATETIME>
+    <FIND_STATUS>0</FIND_STATUS>
+    <REF_ID>2681</REF_ID>
+  </Export>
+  <Export>
+    <APP_NO>1501002300</APP_NO>
+    <APP_NAME>ข้าวโอ๊ตทอดกรอบ ตรา ข้าวโอ๊ย</APP_NAME>
+    <APP_POSITION />
+    <LOAD_DATETIME>42234.570183206</LOAD_DATETIME>
+    <FIND_STATUS>0</FIND_STATUS>
+    <REF_ID>2682</REF_ID>
+  </Export>
+  <Export>
+    <APP_NO>1501002308</APP_NO>
+    <APP_NAME>น๊อตคุมล้อ ชนิดมีเกลียว 2 ด้าน สำหรับยึดล้ออ่ะไหล่ ซ้อนเพิ่มได้ (The wheel hop bolt with doubie threads type)</APP_NAME>
+    <APP_POSITION />
+    <LOAD_DATETIME>42234.570183206</LOAD_DATETIME>
+    <FIND_STATUS>0</FIND_STATUS>
+    <REF_ID>2683</REF_ID>
+  </Export>
+  <Export>
+    <APP_NO>1501002310</APP_NO>
+    <APP_NAME>Machine For Printing Hollow Articles</APP_NAME>
+    <APP_POSITION />
+    <LOAD_DATETIME>42234.570183206</LOAD_DATETIME>
+    <FIND_STATUS>0</FIND_STATUS>
+    <REF_ID>2684</REF_ID>
+  </Export>
+  <Export>
+    <APP_NO>1501002311</APP_NO>
+    <APP_NAME>บานพับผ่อนแรงการใช้งานฝาท้ายรถปิคอัพ</APP_NAME>
+    <APP_POSITION />
+    <LOAD_DATETIME>42234.570183206</LOAD_DATETIME>
+    <FIND_STATUS>0</FIND_STATUS>
+    <REF_ID>2685</REF_ID>
+  </Export>
+  <Export>
+    <APP_NO>1501002326</APP_NO>
+    <APP_NAME>Feed pellet using tapioca residue and a manufacturing method thereof</APP_NAME>
+    <APP_POSITION />
+    <LOAD_DATETIME>42234.570183206</LOAD_DATETIME>
+    <FIND_STATUS>0</FIND_STATUS>
+    <REF_ID>2686</REF_ID>
+  </Export>
+  <Export>
+    <APP_NO>1501002209</APP_NO>
+    <APP_NAME>เครื่องทำความเย็นเทอร์โม-อิเล็กตริกสำหรับใช้กดจุดบำบัด</APP_NAME>
+    <APP_POSITION />
+    <LOAD_DATETIME>42234.570183206</LOAD_DATETIME>
+    <FIND_STATUS>0</FIND_STATUS>
+    <REF_ID>2687</REF_ID>
+  </Export>
+  <Export>
+    <APP_NO>1501002210</APP_NO>
+    <APP_NAME>HEAT EXCHANGER FOR AIR CONDITIONING SYSTEM</APP_NAME>
+    <APP_POSITION />
+    <LOAD_DATETIME>42234.570183206</LOAD_DATETIME>
+    <FIND_STATUS>0</FIND_STATUS>
+    <REF_ID>2688</REF_ID>
+  </Export>
+  <Export>
+    <APP_NO>1501002211</APP_NO>
+    <APP_NAME>A HEAT EXCHANGER OF AN AIR CONDITIONER</APP_NAME>
+    <APP_POSITION />
+    <LOAD_DATETIME>42234.570183206</LOAD_DATETIME>
+    <FIND_STATUS>0</FIND_STATUS>
+    <REF_ID>2689</REF_ID>
+  </Export>
+  <Export>
+    <APP_NO>1501002212</APP_NO>
+    <APP_NAME>EVAPORATIVE AIR CONDITIONING SYSTEM</APP_NAME>
+    <APP_POSITION />
+    <LOAD_DATETIME>42234.570183206</LOAD_DATETIME>
+    <FIND_STATUS>0</FIND_STATUS>
+    <REF_ID>2690</REF_ID>
+  </Export>
+  <Export>
+    <APP_NO>1501002988</APP_NO>
+    <APP_NAME>ของผสมที่สามารถย่อยสลายได้ทางชีวภาพ</APP_NAME>
+    <APP_POSITION />
+    <LOAD_DATETIME>42234.570183206</LOAD_DATETIME>
+    <FIND_STATUS>0</FIND_STATUS>
+    <REF_ID>2691</REF_ID>
+  </Export>
+  <Export>
+    <APP_NO>1501002989</APP_NO>
+    <APP_NAME>ระบบค้นหาหมายเลขโทรศัพท์ออนไลน์</APP_NAME>
+    <APP_POSITION />
+    <LOAD_DATETIME>42234.570183206</LOAD_DATETIME>
+    <FIND_STATUS>0</FIND_STATUS>
+    <REF_ID>2692</REF_ID>
+  </Export>
+  <Export>
+    <APP_NO>1501003036</APP_NO>
+    <APP_NAME>กลไกกุญแจวงแหวนที่มีระบบป้องกันการไขเขี่ยการหมุนของแผ่นรหัสกุญแจ</APP_NAME>
+    <APP_POSITION />
+    <LOAD_DATETIME>42234.570183206</LOAD_DATETIME>
+    <FIND_STATUS>0</FIND_STATUS>
+    <REF_ID>2693</REF_ID>
+  </Export>
+  <Export>
+    <APP_NO>1501003038</APP_NO>
+    <APP_NAME>จุกปิดและภาชนะบรรจุสารเหลว</APP_NAME>
+    <APP_POSITION />
+    <LOAD_DATETIME>42234.570183206</LOAD_DATETIME>
+    <FIND_STATUS>0</FIND_STATUS>
+    <REF_ID>2694</REF_ID>
+  </Export>
+  <Export>
+    <APP_NO>1501003047</APP_NO>
+    <APP_NAME>เครื่องย้ายต้นอ่อนหรือส่วนขยายพันธุ์ของพืช และกรรมวิธี</APP_NAME>
+    <APP_POSITION />
+    <LOAD_DATETIME>42234.570183206</LOAD_DATETIME>
+    <FIND_STATUS>0</FIND_STATUS>
+    <REF_ID>2695</REF_ID>
+  </Export>
+  <Export>
+    <APP_NO>1501003049</APP_NO>
+    <APP_NAME>วิธีการสำหรับการผลิตชิ้นส่วนเรซิ่นของรถยนต์และอุปกรณ์การผลิตของชิ้นส่วนเรซินของรถยนต์</APP_NAME>
+    <APP_POSITION />
+    <LOAD_DATETIME>42234.570183206</LOAD_DATETIME>
+    <FIND_STATUS>0</FIND_STATUS>
+    <REF_ID>2696</REF_ID>
+  </Export>
+  <Export>
+    <APP_NO>1501003059</APP_NO>
+    <APP_NAME>อุปกรณ์แปลงกำลังไฟฟ้า</APP_NAME>
+    <APP_POSITION />
+    <LOAD_DATETIME>42234.570183206</LOAD_DATETIME>
+    <FIND_STATUS>0</FIND_STATUS>
+    <REF_ID>2697</REF_ID>
+  </Export>
+  <Export>
+    <APP_NO>1501003060</APP_NO>
+    <APP_NAME>PLASTIC BAG MAKING APPARATUS</APP_NAME>
+    <APP_POSITION />
+    <LOAD_DATETIME>42234.570183206</LOAD_DATETIME>
+    <FIND_STATUS>0</FIND_STATUS>
+    <REF_ID>2698</REF_ID>
+  </Export>
+  <Export>
+    <APP_NO>1501003067</APP_NO>
+    <APP_NAME>EQUILIBRIUM MOISTURE GRAIN DRYING WITH HEATER AND VARIABLE SPEED FAN</APP_NAME>
+    <APP_POSITION />
+    <LOAD_DATETIME>42234.570183206</LOAD_DATETIME>
+    <FIND_STATUS>0</FIND_STATUS>
+    <REF_ID>2699</REF_ID>
+  </Export>
+  <Export>
+    <APP_NO>1501003068</APP_NO>
+    <APP_NAME>ปฏิทินจันทรคติแผ่นหมุน</APP_NAME>
+    <APP_POSITION />
+    <LOAD_DATETIME>42234.570183206</LOAD_DATETIME>
+    <FIND_STATUS>0</FIND_STATUS>
+    <REF_ID>2700</REF_ID>
+  </Export>
+  <Export>
+    <APP_NO>1501002725</APP_NO>
+    <APP_NAME>กระบวนการลดปฏิกิริยาไฮโดรลิซิส (Hydrolysis Reaction) ด้วยแก๊สคาร์บอนไดออกไซด์ (Carbon Dioxide) หรือ แก๊ส เฉื่อยโดยปราสจากอันตรายของการลุกไหม้และการระเบิดของแก๊สฟอสฟิน (PH3)</APP_NAME>
+    <APP_POSITION />
+    <LOAD_DATETIME>42234.570183206</LOAD_DATETIME>
+    <FIND_STATUS>0</FIND_STATUS>
+    <REF_ID>2701</REF_ID>
+  </Export>
+  <Export>
+    <APP_NO>1501002173</APP_NO>
+    <APP_NAME>ฤทธิ์ฆ่าเซลล์มะเร็งและฤทธิ์ยับยั้งเอนไซม์แอลฟ่า กลูโคสิเดสของอนุพันธ์สังเคราะห์ของ อิพิ-ไอโซแอนโดรกราโฟไลด์</APP_NAME>
+    <APP_POSITION />
+    <LOAD_DATETIME>42234.570183206</LOAD_DATETIME>
+    <FIND_STATUS>0</FIND_STATUS>
+    <REF_ID>2702</REF_ID>
+  </Export>
+</DIP>

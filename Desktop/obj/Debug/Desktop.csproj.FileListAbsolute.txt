@@ -1,0 +1,5 @@
+D:\MyProject\DIP-RFID\DIP-UHF2\trunk\Desktop\bin\Debug\Desktop.dll
+D:\MyProject\DIP-RFID\DIP-UHF2\trunk\Desktop\bin\Debug\Desktop.pdb
+D:\MyProject\DIP-RFID\DIP-UHF2\trunk\Desktop\obj\Debug\ResolveAssemblyReference.cache
+D:\MyProject\DIP-RFID\DIP-UHF2\trunk\Desktop\obj\Debug\Desktop.dll
+D:\MyProject\DIP-RFID\DIP-UHF2\trunk\Desktop\obj\Debug\Desktop.pdb

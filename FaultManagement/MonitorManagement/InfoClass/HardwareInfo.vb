@@ -1,0 +1,136 @@
+﻿'Imports Engine.ConnectDB
+Imports CenLinqDB.Common.Utilities
+
+Namespace InfoClass
+    Public Class HardwareInfo
+        Public INIFile As String = Application.StartupPath & "\Config.ini"
+        Public Function CreateAlarmWaitingClear(ByVal ServerName As String, ByVal IPAddress As String, ByVal Severity As String, ByVal AlarmValue As Double, ByVal AlarmMethod As String, ByVal AlarmActivity As String, ByVal AlarmDesc As String, ByVal SpecificProblem As String, ByVal AlarmCode As String, ByVal SysLocation As String) As Long
+            Dim ret As Long = 0
+            Dim sql As String = "insert into TB_ALARM_WAITING_CLEAR(ServerName,HostIP,AlarmActivity,"
+            sql += " Severity,AlarmValue,AlarmMethod,FlagAlarm,CreateDate,UpdateDate,AlarmQty,SpecificProblem,"
+            sql += " AlarmCode, SysLocation)"
+            sql += " values('" & ServerName & "','" & IPAddress & "','" & AlarmActivity & "',"
+            sql += " '" & Severity & "','" & AlarmValue & "','" & AlarmMethod & "','Alarm',getdate(),getdate(),1,'" & SpecificProblem & "',"
+            sql += " '" & AlarmCode & "','" & SysLocation & "')"
+            ret = QisFaultDB.ExecuteNonQuery(sql, INIFile)
+            If ret > 0 Then
+                ret = QisFaultDB.GetLastID("TB_ALARM_WAITING_CLEAR", INIFile)
+            End If
+
+            InsertAlarmLog(ServerName, IPAddress, AlarmActivity, Severity, AlarmValue, AlarmMethod, "Alarm", AlarmDesc, SpecificProblem, ret)
+
+            Return ret
+        End Function
+
+        Public Function UpdateAlarmWaitingClear(ByVal ServerName As String, ByVal IPAddress As String, ByVal Severity As String, ByVal AlarmValue As Double, ByVal AlarmMethod As String, ByVal AlarmActivity As String, ByVal AlarmDesc As String, ByVal SpecificProblem As String, ByVal AlarmWaitingClearID As Long) As Boolean
+            Dim sql As String = "update TB_ALARM_WAITING_CLEAR set AlarmQty = AlarmQty + 1,UpdateDate=getdate(),SpecificProblem='" & SpecificProblem & "' where id=" & AlarmWaitingClearID
+            Dim ret As Long = QisFaultDB.ExecuteNonQuery(sql, INIFile)
+            If ret > 0 Then
+                InsertAlarmLog(ServerName, IPAddress, AlarmActivity, Severity, AlarmValue, AlarmMethod, "Alarm", AlarmDesc, SpecificProblem, AlarmWaitingClearID)
+            End If
+
+            Return (ret > 0)
+        End Function
+
+        Public Function GetAlarmWaitingClear(ByVal ServerName As String, ByVal AlarmActivity As String, ByVal FlagAlarm As String) As DataTable
+            Dim ret As New DataTable
+            Dim sql As String = "select * from TB_ALARM_WAITING_CLEAR where ServerName='" & ServerName & "' and AlarmActivity='" & AlarmActivity & "' and FlagAlarm='" & FlagAlarm & "'"
+            ret = QisFaultDB.GetDataTable(sql, INIFile)
+            Return ret
+        End Function
+
+        Public Function GetAllAlarmWaitingClear(ByVal AlarmActivity As String) As DataTable
+            Dim ret As New DataTable
+            Dim sql As String = "select * from TB_ALARM_WAITING_CLEAR where  AlarmActivity like '%" & AlarmActivity & "%' and FlagAlarm='Alarm'"
+            ret = QisFaultDB.GetDataTable(sql, INIFile)
+            Return ret
+        End Function
+
+        Public Function SendAlarm(ByVal ServerName As String, ByVal SysLocation As String, ByVal HostIP As String, ByVal AlarmType As String, ByVal AlarmName As String, ByVal Severity As String, ByVal AlarmValue As String, ByVal AlarmDesc As String, ByVal AlarmMethod As String, ByVal AlarmActivity As String) As Boolean
+            Dim ret As Boolean = False
+            Try
+
+                Dim gw As New Engine.GeteWay.GateWayServiceENG
+                If gw.SendToSNMP(SysLocation, HostIP, ServerName, AlarmType, AlarmName, Severity, AlarmValue, AlarmDesc, "0", AlarmMethod, Engine.Common.FunctionEng.GetQisDBConfig("SNMP_ALARM_URL1"), Engine.Common.FunctionEng.GetQisDBConfig("SNMP_ALARM_URL2")) = True Then
+                    ret = True
+                End If
+                gw = Nothing
+
+            Catch ex As Exception
+
+            End Try
+            
+
+            Return ret
+        End Function
+
+        Public Function SendClearAlarm(ByVal ServerName As String, ByVal SysLocation As String, ByVal HostIP As String, ByVal AlarmType As String, ByVal AlarmName As String, ByVal Severity As String, ByVal AlarmValue As String, ByVal AlarmDesc As String, ByVal AlarmMethod As String, ByVal AlarmActivity As String, ByVal SpecificProblem As String) As Boolean
+            Dim ret As Boolean = False
+
+            Dim dt As DataTable = QisFaultDB.GetDataTable("select top 1 id from TB_ALARM_WAITING_CLEAR where ServerName='" & ServerName & "' and AlarmActivity='" & AlarmActivity & "' and Severity='" & Severity & "' and FlagAlarm='Alarm'", INIFile)
+            If dt.Rows.Count > 0 Then
+                Dim sql As String = "update TB_ALARM_WAITING_CLEAR set FlagAlarm='Clear', ClearDate=getdate() where id=" & dt.Rows(0)("id")
+                If QisFaultDB.ExecuteNonQuery(sql, INIFile) > 0 Then
+                    ret = True
+                    InsertAlarmLog(ServerName, HostIP, AlarmActivity, Severity, AlarmValue, AlarmMethod, "Clear", AlarmDesc, SpecificProblem, dt.Rows(0)("id"))
+                End If
+            End If
+            dt.Dispose()
+
+            
+
+            Return ret
+        End Function
+
+        Private Sub InsertAlarmLog(ByVal ServerName As String, ByVal HostIP As String, ByVal AlarmActivity As String, ByVal Severity As String, ByVal CurrentValue As String, ByVal AlarmMethod As String, ByVal FlagAlarm As String, ByVal AlarmDesc As String, ByVal SpecificPloblem As String, ByVal AlarmWaitingClearID As Integer)
+            Dim sql As String = "insert into TB_ALARM_LOG (CreateDate,ServerName,HostIP,AlarmActivity,Severity,"
+            sql += " CurrentValue,AlarmMethod,FlagAlarm,AlarmDesc,SpecificProblem,AlarmWaitingClearID)"
+            sql += " values(getdate(),'" & ServerName & "','" & HostIP & "','" & AlarmActivity & "','" & Severity & "',"
+            sql += " '" & CurrentValue & "','" & AlarmMethod & "','" & FlagAlarm & "','" & AlarmDesc & "','" & SpecificPloblem & "','" & AlarmWaitingClearID & "')"
+
+            QisFaultDB.ExecuteNonQuery(sql, INIFile)
+        End Sub
+
+        Public Sub CreatePendingAlarm(ByVal AlarmActivity As String, ByVal ServerName As String, ByVal IPAddress As String, ByVal Severity As String, ByVal AlarmValue As Double, ByVal AlarmDesc As String, ByVal FlagClear As String, ByVal AlarmMethod As String, ByVal AlarmType As String, ByVal AlarmName As String)
+            Dim Sql As String = "insert into TB_ACTIVITY_PENDING_ALARM (AlarmActivity,ServerName,SysLocation,HostIP,"
+            Sql += " AlarmType,AlarmName,Severity,AlarmValue,AlarmDesc,FlagClear,AlarmMethod,CreateDate)"
+            Sql += " values('" & AlarmActivity & "','" & ServerName & "','" & ServerName & "_" & AlarmActivity & "','" & IPAddress & "',"
+            Sql += " '" & AlarmType & "','" & AlarmName & "','" & Severity & "','" & AlarmValue & "','" & AlarmDesc & "','" & FlagClear & "','" & AlarmMethod & "',getdate())"
+
+            QisFaultDB.ExecuteNonQuery(Sql, INIFile)
+        End Sub
+
+        Public Function GetPendingAlarm(ByVal AlarmActivity As String, ByVal ServerName As String, ByVal Severity As String) As DataTable
+            Dim dt As New DataTable
+            dt = QisFaultDB.GetDataTable("select * from TB_ACTIVITY_PENDING_ALARM where AlarmActivity='" & AlarmActivity & "' and ServerName='" & ServerName & "' and Severity='" & Severity & "'", INIFile)
+            Return dt
+        End Function
+
+        Public Sub DeletePendingAlarm(ByVal AlarmActivity As String, ByVal ServerName As String)
+            Dim sql As String = "delete from TB_ACTIVITY_PENDING_ALARM where ServerName='" & ServerName & "' and AlarmActivity='" & AlarmActivity & "' "
+            QisFaultDB.ExecuteNonQuery(sql, INIFile)
+        End Sub
+
+        Public Function AddConfigPort(ByVal ServerName As String, ByVal IPAddress As String, ByVal PortNumber As Integer, ByVal ChkSun As String, ByVal ChkMon As String, ByVal ChkTue As String, ByVal ChkWed As String, ByVal ChkThu As String, ByVal ChkFri As String, ByVal ChkSat As String, ByVal ChkAllDay As String, ByVal AlarmTimeFrom As String, ByVal AlarmTimeTo As String) As Boolean
+            Dim sql As String = "insert into TB_CONFIG_PORT_LIST (HostIP,HostName,PortNumber,"
+            sql += " AlarmSun, AlarmMon,AlarmTue,AlarmWed,AlarmThu,AlarmFri,AlarmSat,AllDayEvent,AlarmTimeFrom,AlarmTimeTo)"
+            sql += " values('" & IPAddress & "','" & ServerName & "','" & PortNumber & "',"
+            sql += " '" & ChkSun & "','" & ChkMon & "','" & ChkTue & "','" & ChkWed & "','" & ChkThu & "','" & ChkFri & "','" & ChkSat & "','" & ChkAllDay & "','" & AlarmTimeFrom & "','" & AlarmTimeTo & "')"
+            Return (QisFaultDB.ExecuteNonQuery(sql, INIFile) > 0)
+        End Function
+
+        Public Function GetConfigPortList(ByVal whText As String) As DataTable
+            Dim sql As String = " select * from TB_CONFIG_PORT_LIST where 1=1 " & whText
+            Dim dt As New DataTable
+            dt = QisFaultDB.GetDataTable(sql, INIFile)
+            dt.TableName = "GetConfigPortList"
+            Return dt
+        End Function
+
+        Public Function DeleteConfigPortList(ByVal id As Long) As Boolean
+            Dim sql As String = "delete from TB_CONFIG_PORT_LIST where id=" & id
+            Return (QisFaultDB.ExecuteNonQuery(sql, INIFile) > 0)
+        End Function
+    End Class
+End Namespace
+

@@ -1,0 +1,13 @@
+D:\MyProject\DIP-RFID\DIP-UHF2\trunk\DIP Handheld\bin\Debug\SI_C.exe
+D:\MyProject\DIP-RFID\DIP-UHF2\trunk\DIP Handheld\bin\Debug\SI_C.pdb
+D:\MyProject\DIP-RFID\DIP-UHF2\trunk\DIP Handheld\obj\Debug\ResolveAssemblyReference.cache
+D:\MyProject\DIP-RFID\DIP-UHF2\trunk\DIP Handheld\obj\Debug\SI_C.frmTest.resources
+D:\MyProject\DIP-RFID\DIP-UHF2\trunk\DIP Handheld\obj\Debug\SI_C.frmCheckIn.resources
+D:\MyProject\DIP-RFID\DIP-UHF2\trunk\DIP Handheld\obj\Debug\SI_C.frmCheckOut.resources
+D:\MyProject\DIP-RFID\DIP-UHF2\trunk\DIP Handheld\obj\Debug\SI_C.frmConfirm.resources
+D:\MyProject\DIP-RFID\DIP-UHF2\trunk\DIP Handheld\obj\Debug\SI_C.frmLocate.resources
+D:\MyProject\DIP-RFID\DIP-UHF2\trunk\DIP Handheld\obj\Debug\SI_C.frmMain.resources
+D:\MyProject\DIP-RFID\DIP-UHF2\trunk\DIP Handheld\obj\Debug\SI_C.Properties.Resources.resources
+D:\MyProject\DIP-RFID\DIP-UHF2\trunk\DIP Handheld\obj\Debug\DIP Handheld.csproj.GenerateResource.Cache
+D:\MyProject\DIP-RFID\DIP-UHF2\trunk\DIP Handheld\obj\Debug\SI_C.exe
+D:\MyProject\DIP-RFID\DIP-UHF2\trunk\DIP Handheld\obj\Debug\SI_C.pdb

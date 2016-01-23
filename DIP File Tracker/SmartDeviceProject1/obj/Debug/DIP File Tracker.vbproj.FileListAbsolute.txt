@@ -1,0 +1,39 @@
+D:\Project\DIP-RFID\DIP File Tracker\SmartDeviceProject1\obj\Debug\ResolveAssemblyReference.cache
+D:\Project\DIP-RFID\DIP File Tracker\SmartDeviceProject1\obj\Debug\SmartDeviceProject1.FormAddItem.resources
+D:\Project\DIP-RFID\DIP File Tracker\SmartDeviceProject1\obj\Debug\SmartDeviceProject1.FormDisplayJob.resources
+D:\Project\DIP-RFID\DIP File Tracker\SmartDeviceProject1\obj\Debug\SmartDeviceProject1.FormFoundList.resources
+D:\Project\DIP-RFID\DIP File Tracker\SmartDeviceProject1\obj\Debug\SmartDeviceProject1.FormLoadChoice.resources
+D:\Project\DIP-RFID\DIP File Tracker\SmartDeviceProject1\obj\Debug\SmartDeviceProject1.FormLoadOffline.resources
+D:\Project\DIP-RFID\DIP File Tracker\SmartDeviceProject1\obj\Debug\SmartDeviceProject1.FormReportOffline.resources
+D:\Project\DIP-RFID\DIP File Tracker\SmartDeviceProject1\obj\Debug\SmartDeviceProject1.Resources.resources
+D:\Project\DIP-RFID\DIP File Tracker\SmartDeviceProject1\obj\Debug\SmartDeviceProject1.FormLoadChoice.th-TH.resources
+D:\Project\DIP-RFID\DIP File Tracker\SmartDeviceProject1\obj\Debug\DIP File Tracker.vbproj.GenerateResource.Cache
+D:\Project\DIP-RFID\DIP File Tracker\SmartDeviceProject1\bin\Debug\PtxSdkCommon.dll
+D:\Project\DIP-RFID\DIP File Tracker\SmartDeviceProject1\bin\Debug\DIP File Tracker.exe
+D:\Project\DIP-RFID\DIP File Tracker\SmartDeviceProject1\bin\Debug\DIP File Tracker.pdb
+D:\Project\DIP-RFID\DIP File Tracker\SmartDeviceProject1\bin\Debug\DIP File Tracker.xml
+D:\Project\DIP-RFID\DIP File Tracker\SmartDeviceProject1\bin\Debug\th-TH\DIP File Tracker.resources.dll
+D:\Project\DIP-RFID\DIP File Tracker\SmartDeviceProject1\bin\Debug\System.Data.SqlServerCe.dll
+D:\Project\DIP-RFID\DIP File Tracker\SmartDeviceProject1\obj\Debug\th-TH\DIP File Tracker.resources.dll
+D:\Project\DIP-RFID\DIP File Tracker\SmartDeviceProject1\obj\Debug\DIP File Tracker.exe
+D:\Project\DIP-RFID\DIP File Tracker\SmartDeviceProject1\obj\Debug\DIP File Tracker.xml
+D:\Project\DIP-RFID\DIP File Tracker\SmartDeviceProject1\obj\Debug\DIP File Tracker.pdb
+D:\MyProject\DIP-RFID\DIP\DIP File Tracker\SmartDeviceProject1\obj\Debug\ResolveAssemblyReference.cache
+D:\MyProject\DIP-RFID\DIP\DIP File Tracker\SmartDeviceProject1\obj\Debug\SmartDeviceProject1.FormAddItem.resources
+D:\MyProject\DIP-RFID\DIP\DIP File Tracker\SmartDeviceProject1\obj\Debug\SmartDeviceProject1.FormDisplayJob.resources
+D:\MyProject\DIP-RFID\DIP\DIP File Tracker\SmartDeviceProject1\obj\Debug\SmartDeviceProject1.FormFoundList.resources
+D:\MyProject\DIP-RFID\DIP\DIP File Tracker\SmartDeviceProject1\obj\Debug\SmartDeviceProject1.FormLoadChoice.resources
+D:\MyProject\DIP-RFID\DIP\DIP File Tracker\SmartDeviceProject1\obj\Debug\SmartDeviceProject1.FormLoadOffline.resources
+D:\MyProject\DIP-RFID\DIP\DIP File Tracker\SmartDeviceProject1\obj\Debug\SmartDeviceProject1.FormReportOffline.resources
+D:\MyProject\DIP-RFID\DIP\DIP File Tracker\SmartDeviceProject1\obj\Debug\SmartDeviceProject1.Resources.resources
+D:\MyProject\DIP-RFID\DIP\DIP File Tracker\SmartDeviceProject1\obj\Debug\SmartDeviceProject1.FormLoadChoice.th-TH.resources
+D:\MyProject\DIP-RFID\DIP\DIP File Tracker\SmartDeviceProject1\obj\Debug\DIP File Tracker.vbproj.GenerateResource.Cache
+D:\MyProject\DIP-RFID\DIP\DIP File Tracker\SmartDeviceProject1\obj\Debug\th-TH\DIP File Tracker.resources.dll
+D:\MyProject\DIP-RFID\DIP\DIP File Tracker\SmartDeviceProject1\obj\Debug\DIP File Tracker.exe
+D:\MyProject\DIP-RFID\DIP\DIP File Tracker\SmartDeviceProject1\obj\Debug\DIP File Tracker.xml
+D:\MyProject\DIP-RFID\DIP\DIP File Tracker\SmartDeviceProject1\obj\Debug\DIP File Tracker.pdb
+D:\MyProject\DIP-RFID\DIP\DIP File Tracker\SmartDeviceProject1\bin\Debug\PtxSdkCommon.dll
+D:\MyProject\DIP-RFID\DIP\DIP File Tracker\SmartDeviceProject1\bin\Debug\DIP File Tracker.exe
+D:\MyProject\DIP-RFID\DIP\DIP File Tracker\SmartDeviceProject1\bin\Debug\DIP File Tracker.pdb
+D:\MyProject\DIP-RFID\DIP\DIP File Tracker\SmartDeviceProject1\bin\Debug\DIP File Tracker.xml
+D:\MyProject\DIP-RFID\DIP\DIP File Tracker\SmartDeviceProject1\bin\Debug\th-TH\DIP File Tracker.resources.dll

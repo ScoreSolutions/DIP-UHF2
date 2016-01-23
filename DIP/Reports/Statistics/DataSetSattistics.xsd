@@ -1,0 +1,46 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<xs:schema id="DataSetSattistics" targetNamespace="http://tempuri.org/DataSetSattistics.xsd" xmlns:mstns="http://tempuri.org/DataSetSattistics.xsd" xmlns="http://tempuri.org/DataSetSattistics.xsd" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata" xmlns:msprop="urn:schemas-microsoft-com:xml-msprop" attributeFormDefault="qualified" elementFormDefault="qualified">
+  <xs:annotation>
+    <xs:appinfo source="urn:schemas-microsoft-com:xml-msdatasource">
+      <DataSource DefaultConnectionIndex="0" FunctionsComponentName="QueriesTableAdapter" Modifier="AutoLayout, AnsiClass, Class, Public" SchemaSerializationMode="IncludeSchema" xmlns="urn:schemas-microsoft-com:xml-msdatasource">
+        <Connections />
+        <Tables />
+        <Sources />
+      </DataSource>
+    </xs:appinfo>
+  </xs:annotation>
+  <xs:element name="DataSetSattistics" msdata:IsDataSet="true" msdata:UseCurrentLocale="true" msprop:Generator_UserDSName="DataSetSattistics" msprop:Generator_DataSetName="DataSetSattistics" msprop:EnableTableAdapterManager="true">
+    <xs:complexType>
+      <xs:choice minOccurs="0" maxOccurs="unbounded">
+        <xs:element name="StatisticsReturn.vb" msprop:Generator_UserTableName="StatisticsReturn.vb" msprop:Generator_RowDeletedName="_StatisticsReturn_vbRowDeleted" msprop:Generator_RowChangedName="_StatisticsReturn_vbRowChanged" msprop:Generator_RowClassName="_StatisticsReturn_vbRow" msprop:Generator_RowChangingName="_StatisticsReturn_vbRowChanging" msprop:Generator_RowEvArgName="_StatisticsReturn_vbRowChangeEvent" msprop:Generator_RowEvHandlerName="_StatisticsReturn_vbRowChangeEventHandler" msprop:Generator_TableClassName="_StatisticsReturn_vbDataTable" msprop:Generator_TableVarName="_tableStatisticsReturn_vb" msprop:Generator_RowDeletingName="_StatisticsReturn_vbRowDeleting" msprop:Generator_TablePropName="_StatisticsReturn_vb">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="returndate" msprop:Generator_UserColumnName="returndate" msprop:Generator_ColumnPropNameInRow="returndate" msprop:Generator_ColumnVarNameInTable="columnreturndate" msprop:Generator_ColumnPropNameInTable="returndateColumn" type="xs:string" minOccurs="0" />
+              <xs:element name="patent_type_name" msprop:Generator_UserColumnName="patent_type_name" msprop:Generator_ColumnPropNameInRow="patent_type_name" msprop:Generator_ColumnVarNameInTable="columnpatent_type_name" msprop:Generator_ColumnPropNameInTable="patent_type_nameColumn" type="xs:string" minOccurs="0" />
+              <xs:element name="returned" msprop:Generator_UserColumnName="returned" msprop:Generator_ColumnPropNameInRow="returned" msprop:Generator_ColumnVarNameInTable="columnreturned" msprop:Generator_ColumnPropNameInTable="returnedColumn" type="xs:string" minOccurs="0" />
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+        <xs:element name="StatisticsBorrow" msprop:Generator_UserTableName="StatisticsBorrow" msprop:Generator_RowDeletedName="StatisticsBorrowRowDeleted" msprop:Generator_RowChangedName="StatisticsBorrowRowChanged" msprop:Generator_RowClassName="StatisticsBorrowRow" msprop:Generator_RowChangingName="StatisticsBorrowRowChanging" msprop:Generator_RowEvArgName="StatisticsBorrowRowChangeEvent" msprop:Generator_RowEvHandlerName="StatisticsBorrowRowChangeEventHandler" msprop:Generator_TableClassName="StatisticsBorrowDataTable" msprop:Generator_TableVarName="tableStatisticsBorrow" msprop:Generator_RowDeletingName="StatisticsBorrowRowDeleting" msprop:Generator_TablePropName="StatisticsBorrow">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="dateBorrow" msprop:Generator_UserColumnName="dateBorrow" msprop:Generator_ColumnVarNameInTable="columndateBorrow" msprop:Generator_ColumnPropNameInRow="dateBorrow" msprop:Generator_ColumnPropNameInTable="dateBorrowColumn" type="xs:string" minOccurs="0" />
+              <xs:element name="patent_type_name" msprop:Generator_UserColumnName="patent_type_name" msprop:Generator_ColumnVarNameInTable="columnpatent_type_name" msprop:Generator_ColumnPropNameInRow="patent_type_name" msprop:Generator_ColumnPropNameInTable="patent_type_nameColumn" type="xs:string" minOccurs="0" />
+              <xs:element name="borrow" msprop:Generator_UserColumnName="borrow" msprop:Generator_ColumnVarNameInTable="columnborrow" msprop:Generator_ColumnPropNameInRow="borrow" msprop:Generator_ColumnPropNameInTable="borrowColumn" type="xs:string" minOccurs="0" />
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+        <xs:element name="StatisticsByOfficer" msprop:Generator_UserTableName="StatisticsByOfficer" msprop:Generator_RowDeletedName="StatisticsByOfficerRowDeleted" msprop:Generator_RowChangedName="StatisticsByOfficerRowChanged" msprop:Generator_RowClassName="StatisticsByOfficerRow" msprop:Generator_RowChangingName="StatisticsByOfficerRowChanging" msprop:Generator_RowEvArgName="StatisticsByOfficerRowChangeEvent" msprop:Generator_RowEvHandlerName="StatisticsByOfficerRowChangeEventHandler" msprop:Generator_TableClassName="StatisticsByOfficerDataTable" msprop:Generator_TableVarName="tableStatisticsByOfficer" msprop:Generator_RowDeletingName="StatisticsByOfficerRowDeleting" msprop:Generator_TablePropName="StatisticsByOfficer">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="borrowerdate" msprop:Generator_UserColumnName="borrowerdate" msprop:Generator_ColumnPropNameInRow="borrowerdate" msprop:Generator_ColumnVarNameInTable="columnborrowerdate" msprop:Generator_ColumnPropNameInTable="borrowerdateColumn" type="xs:string" minOccurs="0" />
+              <xs:element name="Patentedinvention" msprop:Generator_UserColumnName="Patentedinvention" msprop:Generator_ColumnPropNameInRow="Patentedinvention" msprop:Generator_ColumnVarNameInTable="columnPatentedinvention" msprop:Generator_ColumnPropNameInTable="PatentedinventionColumn" type="xs:string" minOccurs="0" />
+              <xs:element name="Patenteddesign" msprop:Generator_UserColumnName="Patenteddesign" msprop:Generator_ColumnVarNameInTable="columnPatenteddesign" msprop:Generator_ColumnPropNameInRow="Patenteddesign" msprop:Generator_ColumnPropNameInTable="PatenteddesignColumn" type="xs:string" minOccurs="0" />
+              <xs:element name="Pettypatent" msprop:Generator_UserColumnName="Pettypatent" msprop:Generator_ColumnPropNameInRow="Pettypatent" msprop:Generator_ColumnVarNameInTable="columnPettypatent" msprop:Generator_ColumnPropNameInTable="PettypatentColumn" type="xs:string" minOccurs="0" />
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+      </xs:choice>
+    </xs:complexType>
+  </xs:element>
+</xs:schema>

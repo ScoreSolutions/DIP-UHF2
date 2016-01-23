@@ -1,0 +1,52 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<xs:schema id="DataSetReturn" targetNamespace="http://tempuri.org/DataSetReturn.xsd" xmlns:mstns="http://tempuri.org/DataSetReturn.xsd" xmlns="http://tempuri.org/DataSetReturn.xsd" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata" xmlns:msprop="urn:schemas-microsoft-com:xml-msprop" attributeFormDefault="qualified" elementFormDefault="qualified">
+  <xs:annotation>
+    <xs:appinfo source="urn:schemas-microsoft-com:xml-msdatasource">
+      <DataSource DefaultConnectionIndex="0" FunctionsComponentName="QueriesTableAdapter" Modifier="AutoLayout, AnsiClass, Class, Public" SchemaSerializationMode="IncludeSchema" xmlns="urn:schemas-microsoft-com:xml-msdatasource">
+        <Connections />
+        <Tables />
+        <Sources />
+      </DataSource>
+    </xs:appinfo>
+  </xs:annotation>
+  <xs:element name="DataSetReturn" msdata:IsDataSet="true" msdata:UseCurrentLocale="true" msprop:Generator_UserDSName="DataSetReturn" msprop:Generator_DataSetName="DataSetReturn" msprop:EnableTableAdapterManager="true">
+    <xs:complexType>
+      <xs:choice minOccurs="0" maxOccurs="unbounded">
+        <xs:element name="ReturnByDay" msprop:Generator_UserTableName="ReturnByDay" msprop:Generator_RowDeletedName="ReturnByDayRowDeleted" msprop:Generator_RowChangedName="ReturnByDayRowChanged" msprop:Generator_RowClassName="ReturnByDayRow" msprop:Generator_RowChangingName="ReturnByDayRowChanging" msprop:Generator_RowEvArgName="ReturnByDayRowChangeEvent" msprop:Generator_RowEvHandlerName="ReturnByDayRowChangeEventHandler" msprop:Generator_TableClassName="ReturnByDayDataTable" msprop:Generator_TableVarName="tableReturnByDay" msprop:Generator_RowDeletingName="ReturnByDayRowDeleting" msprop:Generator_TablePropName="ReturnByDay">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="returndate" msprop:Generator_UserColumnName="returndate" msprop:Generator_ColumnPropNameInRow="returndate" msprop:Generator_ColumnVarNameInTable="columnreturndate" msprop:Generator_ColumnPropNameInTable="returndateColumn" type="xs:string" minOccurs="0" />
+              <xs:element name="app_no" msprop:Generator_UserColumnName="app_no" msprop:Generator_ColumnPropNameInRow="app_no" msprop:Generator_ColumnVarNameInTable="columnapp_no" msprop:Generator_ColumnPropNameInTable="app_noColumn" type="xs:string" minOccurs="0" />
+              <xs:element name="borrowername" msprop:Generator_UserColumnName="borrowername" msprop:Generator_ColumnPropNameInRow="borrowername" msprop:Generator_ColumnVarNameInTable="columnborrowername" msprop:Generator_ColumnPropNameInTable="borrowernameColumn" type="xs:string" minOccurs="0" />
+              <xs:element name="department_name" msprop:Generator_UserColumnName="department_name" msprop:Generator_ColumnPropNameInRow="department_name" msprop:Generator_ColumnVarNameInTable="columndepartment_name" msprop:Generator_ColumnPropNameInTable="department_nameColumn" type="xs:string" minOccurs="0" />
+              <xs:element name="patent_type_name" msprop:Generator_UserColumnName="patent_type_name" msprop:Generator_ColumnPropNameInRow="patent_type_name" msprop:Generator_ColumnVarNameInTable="columnpatent_type_name" msprop:Generator_ColumnPropNameInTable="patent_type_nameColumn" type="xs:string" minOccurs="0" />
+              <xs:element name="officerreturn" msprop:Generator_UserColumnName="officerreturn" msprop:Generator_ColumnPropNameInRow="officerreturn" msprop:Generator_ColumnVarNameInTable="columnofficerreturn" msprop:Generator_ColumnPropNameInTable="officerreturnColumn" type="xs:string" minOccurs="0" />
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+        <xs:element name="ReturnByDepartment" msprop:Generator_UserTableName="ReturnByDepartment" msprop:Generator_RowDeletedName="ReturnByDepartmentRowDeleted" msprop:Generator_RowChangedName="ReturnByDepartmentRowChanged" msprop:Generator_RowClassName="ReturnByDepartmentRow" msprop:Generator_RowChangingName="ReturnByDepartmentRowChanging" msprop:Generator_RowEvArgName="ReturnByDepartmentRowChangeEvent" msprop:Generator_RowEvHandlerName="ReturnByDepartmentRowChangeEventHandler" msprop:Generator_TableClassName="ReturnByDepartmentDataTable" msprop:Generator_TableVarName="tableReturnByDepartment" msprop:Generator_RowDeletingName="ReturnByDepartmentRowDeleting" msprop:Generator_TablePropName="ReturnByDepartment">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="app_no" msprop:Generator_UserColumnName="app_no" msprop:Generator_ColumnVarNameInTable="columnapp_no" msprop:Generator_ColumnPropNameInRow="app_no" msprop:Generator_ColumnPropNameInTable="app_noColumn" type="xs:string" minOccurs="0" />
+              <xs:element name="borrowername" msprop:Generator_UserColumnName="borrowername" msprop:Generator_ColumnVarNameInTable="columnborrowername" msprop:Generator_ColumnPropNameInRow="borrowername" msprop:Generator_ColumnPropNameInTable="borrowernameColumn" type="xs:string" minOccurs="0" />
+              <xs:element name="department_name" msprop:Generator_UserColumnName="department_name" msprop:Generator_ColumnVarNameInTable="columndepartment_name" msprop:Generator_ColumnPropNameInRow="department_name" msprop:Generator_ColumnPropNameInTable="department_nameColumn" type="xs:string" minOccurs="0" />
+              <xs:element name="returndate" msprop:Generator_UserColumnName="returndate" msprop:Generator_ColumnVarNameInTable="columnreturndate" msprop:Generator_ColumnPropNameInRow="returndate" msprop:Generator_ColumnPropNameInTable="returndateColumn" type="xs:string" minOccurs="0" />
+              <xs:element name="officerreturn" msprop:Generator_UserColumnName="officerreturn" msprop:Generator_ColumnVarNameInTable="columnofficerreturn" msprop:Generator_ColumnPropNameInRow="officerreturn" msprop:Generator_ColumnPropNameInTable="officerreturnColumn" type="xs:string" minOccurs="0" />
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+        <xs:element name="ReturnByOfficer" msprop:Generator_UserTableName="ReturnByOfficer" msprop:Generator_RowDeletedName="ReturnByOfficerRowDeleted" msprop:Generator_RowChangedName="ReturnByOfficerRowChanged" msprop:Generator_RowClassName="ReturnByOfficerRow" msprop:Generator_RowChangingName="ReturnByOfficerRowChanging" msprop:Generator_RowEvArgName="ReturnByOfficerRowChangeEvent" msprop:Generator_RowEvHandlerName="ReturnByOfficerRowChangeEventHandler" msprop:Generator_TableClassName="ReturnByOfficerDataTable" msprop:Generator_TableVarName="tableReturnByOfficer" msprop:Generator_RowDeletingName="ReturnByOfficerRowDeleting" msprop:Generator_TablePropName="ReturnByOfficer">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="app_no" msprop:Generator_UserColumnName="app_no" msprop:Generator_ColumnPropNameInRow="app_no" msprop:Generator_ColumnVarNameInTable="columnapp_no" msprop:Generator_ColumnPropNameInTable="app_noColumn" type="xs:string" minOccurs="0" />
+              <xs:element name="returndate" msprop:Generator_UserColumnName="returndate" msprop:Generator_ColumnPropNameInRow="returndate" msprop:Generator_ColumnVarNameInTable="columnreturndate" msprop:Generator_ColumnPropNameInTable="returndateColumn" type="xs:string" minOccurs="0" />
+              <xs:element name="officerreturn" msprop:Generator_UserColumnName="officerreturn" msprop:Generator_ColumnPropNameInRow="officerreturn" msprop:Generator_ColumnVarNameInTable="columnofficerreturn" msprop:Generator_ColumnPropNameInTable="officerreturnColumn" type="xs:string" minOccurs="0" />
+              <xs:element name="borrowername" msprop:Generator_UserColumnName="borrowername" msprop:Generator_ColumnPropNameInRow="borrowername" msprop:Generator_ColumnVarNameInTable="columnborrowername" msprop:Generator_ColumnPropNameInTable="borrowernameColumn" type="xs:string" minOccurs="0" />
+              <xs:element name="department_name" msprop:Generator_UserColumnName="department_name" msprop:Generator_ColumnPropNameInRow="department_name" msprop:Generator_ColumnVarNameInTable="columndepartment_name" msprop:Generator_ColumnPropNameInTable="department_nameColumn" type="xs:string" minOccurs="0" />
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+      </xs:choice>
+    </xs:complexType>
+  </xs:element>
+</xs:schema>
